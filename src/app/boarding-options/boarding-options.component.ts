@@ -1,9 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {BoardingService} from "../boarding.service";
 import {UpdateBoardingModel} from "../models/update-boarding-model";
-import {FormData} from "../models/form-data";
-import {Signatories} from "../models/signatories";
-import {BeneficialOwners} from "../models/beneficial-owners";
 
 @Component({
   selector: 'app-boarding-options',

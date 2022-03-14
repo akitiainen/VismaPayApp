@@ -1,6 +1,3 @@
-import {Signatories} from "./signatories";
-import {BeneficialOwners} from "./beneficial-owners";
-
 export class FormData {
   isGrossPayout?: boolean;
   isPep?: boolean;
