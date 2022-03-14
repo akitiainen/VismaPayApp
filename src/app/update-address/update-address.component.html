@@ -1,0 +1,29 @@
+<form [formGroup]="registerForm" (ngSubmit)="updateValues()" class="form-container">
+  please enter you company details below
+  <mat-form-field>
+    <input matInput
+           formControlName="companyName"
+           placeholder="companyName">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput
+           formControlName="companyPhone"
+           placeholder="companyPhone">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput
+           formControlName="companyAddressStreet"
+           placeholder="companyAddressStreet">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput
+           formControlName="companyPostal"
+           placeholder="companyPostal">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput
+           formControlName="companyCity"
+           placeholder="companyCity">
+  </mat-form-field>
+  <button mat-raised-button [disabled]="!registerForm.valid"> Lähetä </button>
+</form>
